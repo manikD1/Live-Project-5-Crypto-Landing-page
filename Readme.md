@@ -42,7 +42,7 @@
 &nbsp;
 ***
 ## **🔥Netlify Live Link🔥**
-- [Crypto Landing page]()
+- [Crypto Landing page](https://live-proj-5-fullstackjsbootcamp.netlify.app/)
 
 &nbsp;
 ***
