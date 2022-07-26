@@ -47,4 +47,4 @@
 &nbsp;
 ***
 ## **📷 Post Designing Screenshot 📷**
-![]()
+![](https://github.com/manikD1/Live-Project-5-Crypto-Landing-page/blob/main/Actual-Screenshot.JPG)
