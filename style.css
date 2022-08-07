@@ -112,3 +112,93 @@ body {
 .button-large::first-letter{
   text-transform: uppercase;
 }
+
+/* Mobile Responsiveness */
+
+@media (max-width: 1800px){
+
+  .navbar{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list{
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 1250px){
+
+  .navbar{
+    flex-direction: column;
+  }
+
+  .line{
+    transform: rotate(90deg);
+    height: 100px;
+  }
+
+  .button-small{
+    margin-top: 3em;
+    font-size: 0.8em;
+  }
+
+  .logo{
+    height: 2em;
+  }
+
+  .list-item{
+    font-size: 0.8em;
+  }
+
+  .hero-heading{
+    font-size: 2em;
+    width: 600px;
+    margin-top: 80px;
+  }
+
+  .hero-description{
+    font-size: 1em;
+    width: 600px;
+    margin: 2em 0;
+  }
+
+  .button-large{
+    font-size: 0.8em;
+  }
+
+
+}
+
+@media (max-width: 620px){
+
+  .list{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .list-item:nth-child(1)::after{
+    border-width: 0 2px 2px 0;
+  }
+
+  .list-item{
+    margin: 1em 0;
+  }
+
+
+  .hero-heading{
+    font-size: 1.5em;
+    width: 350px;
+  }
+
+  .hero-description{
+    font-size: 1em;
+    width: 350px;
+    margin: 2em 0;
+  }
+
+
+}
